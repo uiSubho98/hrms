@@ -41,7 +41,7 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = env("ALLOWED_HOSTS", default=["*"])  # ← "*" is unsafe for production
+ALLOWED_HOSTS = env("ALLOWED_HOSTS", default=["*"],"hrms.devifai.com", "http://13.233.231.137/" )  # ← "*" is unsafe for production
 
 # Application definition
 
